@@ -1,0 +1,25 @@
+Library\BookshelfBundle\Entity\Book:
+    type: entity
+    table: null
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        title:
+            type: string
+            length: 255
+        description:
+            type: text
+        genreId:
+            type: integer
+            column: genre_id
+        authorId:
+            type: integer
+            column: author_id
+        date:
+            type: date
+        isbn:
+            type: integer
+    lifecycleCallbacks: {  }
