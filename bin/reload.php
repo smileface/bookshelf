@@ -10,4 +10,9 @@
     }
 
     //Steps
+    run("Permissions", "chmod -R 777 app/cache app/logs");
     run("Clear cache", "rm -rf app/cache/*");
+    run("Drop DB", "php app/console doctrine:database:drop --force");
+    run("Create DB", "php app/console doctrine:database:create");
+    run("Schema update", "php app/console doctrine:schema:update --force");
+    run("Load fixtures", "php app/console doctrine:fixtures:load --append");

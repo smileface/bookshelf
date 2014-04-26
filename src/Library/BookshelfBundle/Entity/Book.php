@@ -57,9 +57,9 @@ class Book
     private $date;
 
     /**
-     * @var integer
+     * @var string
      *
-     * @ORM\Column(name="isbn", type="integer")
+     * @ORM\Column(name="isbn", type="string", length=13)
      */
     private $isbn;
 
@@ -192,7 +192,7 @@ class Book
     /**
      * Set isbn
      *
-     * @param integer $isbn
+     * @param string $isbn
      * @return Book
      */
     public function setIsbn($isbn)
@@ -205,7 +205,7 @@ class Book
     /**
      * Get isbn
      *
-     * @return integer 
+     * @return string
      */
     public function getIsbn()
     {
