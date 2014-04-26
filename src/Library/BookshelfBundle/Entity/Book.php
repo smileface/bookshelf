@@ -6,41 +6,60 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Book
+ *
+ * @ORM\Table(name="books")
+ * @ORM\Entity
  */
 class Book
 {
     /**
      * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $id;
 
     /**
      * @var string
+     *
+     * @ORM\Column(name="title", type="string", length=255)
      */
     private $title;
 
     /**
      * @var string
+     *
+     * @ORM\Column(name="description", type="string", length=255)
      */
     private $description;
 
     /**
      * @var integer
+     *
+     * @ORM\Column(name="genre_id", type="integer")
      */
     private $genreId;
 
     /**
      * @var integer
+     *
+     * @ORM\Column(name="author_id", type="integer")
      */
     private $authorId;
 
     /**
      * @var \DateTime
+     *
+     * @ORM\Column(name="date", type="datetime")
      */
     private $date;
 
     /**
      * @var integer
+     *
+     * @ORM\Column(name="isbn", type="integer")
      */
     private $isbn;
 
