@@ -11,24 +11,28 @@
         {
             $userAdmin = new User();
             $userAdmin->setUsername('admin');
-            $userAdmin->setPassword('admin');
+            $userAdmin->setPlainPassword('admin');
             $userAdmin->setEmail('admin@mail.com');
             $userAdmin->setFirstName('Admin');
             $userAdmin->setLastName('Administrator');
+            $userAdmin->setSuperAdmin(true);
+            $userAdmin->setEnabled(true);
 
             $user1 = new User();
             $user1->setUsername('John');
-            $user1->setPassword('user');
+            $user1->setPlainPassword('user');
             $user1->setEmail('johndoe@mail.com');
             $user1->setFirstName('John');
             $user1->setLastName('Doe');
+            $user1->setEnabled(true);
 
             $user2 = new User();
             $user2->setUsername('Jane');
-            $user2->setPassword('user');
+            $user2->setPlainPassword('user');
             $user2->setEmail('janeroe@mail.com');
             $user2->setFirstName('Jane');
             $user2->setLastName('Roe');
+            $user2->setEnabled(true);
 
 
 
