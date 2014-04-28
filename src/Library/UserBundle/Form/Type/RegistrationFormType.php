@@ -1,6 +1,6 @@
 <?php
 
-namespace Library\BookshelfBundle\Form\Type;
+namespace Library\UserBundle\Form\Type;
 
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -25,7 +25,7 @@ class RegistrationFormType extends BaseType
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
         $resolver->setDefaults(array(
-	        'data_class' => 'Library\BookshelfBundle\Entity\User'
+	        'data_class' => 'Library\UserBundle\Entity\User'
         ));
     }
 }

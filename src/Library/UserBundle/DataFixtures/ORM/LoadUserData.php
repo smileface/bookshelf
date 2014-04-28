@@ -1,9 +1,9 @@
 <?php
-    namespace Library\BookshelfBundle\DataFixtures\ORM;
+    namespace Library\UserBundle\DataFixtures\ORM;
 
     use Doctrine\Common\DataFixtures\FixtureInterface;
     use Doctrine\Common\Persistence\ObjectManager;
-    use Library\BookshelfBundle\Entity\User;
+    use Library\UserBundle\Entity\User;
 
     class LoadUserData implements FixtureInterface
     {

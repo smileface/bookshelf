@@ -1,5 +1,5 @@
 <?php
-namespace Library\BookshelfBundle\DependencyInjection;
+namespace Library\UserBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -9,7 +9,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('library_bookshelf');
+        $rootNode = $treeBuilder->root('library_user');
 
         return $treeBuilder;
     }

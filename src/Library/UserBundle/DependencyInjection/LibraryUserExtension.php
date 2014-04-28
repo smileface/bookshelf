@@ -1,5 +1,5 @@
 <?php
-namespace Library\BookshelfBundle\DependencyInjection;
+namespace Library\UserBundle\DependencyInjection;
 
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -11,7 +11,7 @@ use Symfony\Component\Config\FileLocator;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class LibraryBookshelfExtension extends Extension
+class LibraryUserExtension extends Extension
 {
     /**
      * {@inheritDoc}

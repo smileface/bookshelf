@@ -64,7 +64,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1344,21 +1344,20 @@
         },
         {
             "name": "symfony/icu",
-            "version": "v1.2.1",
+            "version": "v1.0.1",
             "target-dir": "Symfony/Component/Icu",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Icu.git",
-                "reference": "98e197da54df1f966dd5e8a4992135703569c987"
+                "reference": "fdba214b1e087c149843bde976263c53ac10c975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Icu/zipball/98e197da54df1f966dd5e8a4992135703569c987",
-                "reference": "98e197da54df1f966dd5e8a4992135703569c987",
+                "url": "https://api.github.com/repos/symfony/Icu/zipball/fdba214b1e087c149843bde976263c53ac10c975",
+                "reference": "fdba214b1e087c149843bde976263c53ac10c975",
                 "shasum": ""
             },
             "require": {
-                "lib-icu": ">=4.4",
                 "php": ">=5.3.3",
                 "symfony/intl": "~2.3"
             },
@@ -1388,7 +1387,7 @@
                 "icu",
                 "intl"
             ],
-            "time": "2013-10-04 10:06:38"
+            "time": "2013-10-04 09:12:07"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -1509,16 +1508,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.12",
+            "version": "v2.3.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "3574df3d5e0039f3225007b8be534df5c4104503"
+                "reference": "9c4b11915d7409a9cecd155d954f2ade273f3359"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/3574df3d5e0039f3225007b8be534df5c4104503",
-                "reference": "3574df3d5e0039f3225007b8be534df5c4104503",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/9c4b11915d7409a9cecd155d954f2ade273f3359",
+                "reference": "9c4b11915d7409a9cecd155d954f2ade273f3359",
                 "shasum": ""
             },
             "require": {
@@ -1615,7 +1614,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-04-03 05:42:39"
+            "time": "2014-04-27 08:34:33"
         },
         {
             "name": "twig/extensions",

@@ -6,7 +6,7 @@
 
     <services>
 
-        <service id="library_user.registration.form.type" class="Library\BookshelfBundle\Form\Type\RegistrationFormType">
+        <service id="library_user.registration.form.type" class="Library\UserBundle\Form\Type\RegistrationFormType">
             <tag name="form.type" alias="library_user_registration" />
             <argument>%fos_user.model.user.class%</argument>
         </service>
