@@ -11,7 +11,7 @@
 
     //Steps
     run("Permissions", "chmod -R 777 app/cache app/logs");
-    run("Clear cache", "rm -rf app/cache/*");
+    run("Clear cache", "php app/console cache:clear --no-debug");
     run("Drop DB", "php app/console doctrine:database:drop --force");
     run("Create DB", "php app/console doctrine:database:create");
     run("Schema update", "php app/console doctrine:schema:update --force");
