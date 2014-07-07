@@ -1,0 +1,3 @@
+library_book_homepage:
+    pattern:  /book/{id}
+    defaults: { _controller: LibraryBookBundle:Default:index }
