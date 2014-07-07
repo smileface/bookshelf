@@ -1,0 +1,3 @@
+library_author_homepage:
+    pattern:  /author/{id}
+    defaults: { _controller: LibraryAuthorBundle:Default:index }

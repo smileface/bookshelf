@@ -1,6 +1,6 @@
 <?php
 
-namespace Library\BookshelfBundle\Entity;
+namespace Library\AuthorBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
