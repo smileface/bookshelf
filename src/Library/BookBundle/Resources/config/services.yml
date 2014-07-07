@@ -1,0 +1,7 @@
+parameters:
+#    library_book.example.class: Library\BookBundle\Example
+
+services:
+#    library_book.example:
+#        class: %library_book.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
