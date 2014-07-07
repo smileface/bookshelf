@@ -1,0 +1,7 @@
+parameters:
+#    library_author.example.class: Library\AuthorBundle\Example
+
+services:
+#    library_author.example:
+#        class: %library_author.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

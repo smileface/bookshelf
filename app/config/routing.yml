@@ -1,3 +1,11 @@
+library_genre:
+    resource: "@LibraryGenreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+library_author:
+    resource: "@LibraryAuthorBundle/Resources/config/routing.yml"
+    prefix:   /
+
 library_book:
     resource: "@LibraryBookBundle/Resources/config/routing.yml"
     prefix:   /

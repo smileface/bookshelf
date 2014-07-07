@@ -1,0 +1,3 @@
+library_genre_homepage:
+    pattern:  /genre/{id}
+    defaults: { _controller: LibraryGenreBundle:Default:index }
